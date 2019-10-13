@@ -26,5 +26,6 @@ void main()//creating main method for the program
 			printf(" %d",k);
 		}//closing of k loop
 		printf("\n");
+		
 	}//closing of main for loop
 }//close of main func block
