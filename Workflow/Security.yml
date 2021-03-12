@@ -1,2 +1,9 @@
 - name: DefenseCode ThunderScan Action
   uses: defensecode/thunderscan-action@v1.0
+# ThunderScan Action
+    - name: ThunderScan
+      uses: defensecode/thunderscan-action@v1.0
+      with:
+        api_url: 'http://localhost:8999'
+        client_path: '/opt/thunderscan/tsactioncli'
+        api_token:  ${{ secrets.THUNDERSCAN_TOKEN }}
